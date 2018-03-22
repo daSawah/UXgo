@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Modal Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<button type="button" class="btn-primary" data-toggle="modal" data-target="#initialLogin">
+  log in
+</button>
+
+<!-- MODAL STEP1 -->
+<div class="container-fluid">
+<div id="initialLogin" class="modal fade">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" id="close" data-dismiss="modal"><strong>&times;</strong></button>
+        </div>
+        <div class="modal-body">
+          <h3>Welcome to</h3>
+          <img class="img-responsive" src="img\careerPrepped_white_orange_logo.png">
+          <p>Thank you for signing up!  Please enjoy this quick start guide and be sure to review the FAQ for more details about features.</p>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#step2Modal">Continue</button>
+        </div>
+        <div class="modal-footer">
+          <!-- DISMISS MODAL -->
+          <button type="button" class="btn-link" data-dismiss="modal">
+            <u>No thanks, I got it from here</u>
+          </button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- -->
+
+<!-- MODAL STEP2: DIGITAL BADGES -->
+<div id="step2Modal" class="modal fade">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" id="close" data-dismiss="modal"><strong>&times;</strong></button>
+        </div>
+        <div class="modal-body">
+          <h3>Digital Badges</h3>
+          <img class="img-responsive" src="img\badge.png">
+          <p>Take tests and earn digital badges, proving you know your stuff!</p>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#step3Modal">Continue</button>
+        </div>
+        <div class="modal-footer">
+          <!-- DISMISS MODAL -->
+          <button type="button" class="btn-link" data-dismiss="modal">
+            <u>No thanks, I got it from here</u>
+          </button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- -->
+
+<!-- MODAL STEP3: PROFESSIONAL WEBPAGE -->
+<div id="step3Modal" class="modal fade">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" id="close" data-dismiss="modal"><strong>&times;</strong></button>
+        </div>
+        <div class="modal-body">
+          <h3>Professional Webpage</h3>
+          <img class="img-responsive" src="img\professionalwebpage.png">
+          <p>Let us help you get up and running, focus on your skills and not a website.</p>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#step4Modal">Continue</button>
+        </div>
+        <div class="modal-footer">
+          <!-- DISMISS MODAL -->
+          <button type="button" class="btn-link" data-dismiss="modal">
+            <u>No thanks, I got it from here</u>
+          </button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- -->
+<!-- MODAL STEP4-->
+<div id="step4Modal" class="modal fade">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" id="close" data-dismiss="modal"><strong>&times;</strong></button>
+        </div>
+        <div class="modal-body">
+          <h3>E-Portfolio</h3>
+          <img class="img-responsive" src="img\eportfolio.png">
+          <p>Display all of your showcase work in one easy place, putting the focus on <i>you</i> and <i>your</i> skillsets.</p>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#step5Modal">Continue</button>
+        </div>
+        <div class="modal-footer">
+          <!-- DISMISS MODAL -->
+          <button type="button" class="btn-link" data-dismiss="modal">
+            <u>No thanks, I got it from here</u>
+          </button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- -->
+
+<!-- MODAL STEP5 -->
+<div id="step5Modal" class="modal fade">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" id="close" data-dismiss="modal"><strong>&times;</strong></button>
+        </div>
+        <div class="modal-body">
+          <h3>That's about it!</h3>
+          <img class="img-responsive" src="img\summit.png">
+          <p>Let us help you get up and running, focus on your skills and not a website.</p>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Get Started</button>
+        </div>
+        <div class="modal-footer">
+          <!-- DISMISS MODAL -->
+          <button type="button" class="btn-link" data-dismiss="modal">
+            <u>No thanks, I got it from here</u>
+          </button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- -->
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

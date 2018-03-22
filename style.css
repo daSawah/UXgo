@@ -1,0 +1,68 @@
+body{
+  font-family: helvetica, sans-serif;
+  background-color: white;
+  margin:5px;
+  height:100%;
+
+}
+.container{
+  display:flex;
+  height:100%;
+  min-height:1024px;
+  align-items:center;
+}
+.modal-dialog{
+  border-style:none;
+  min-width:.3;
+}
+
+.modal-header{
+  border:none;
+  align-self:flex-end;
+  height:.5;
+}
+
+#close{
+  color: #000000;
+  border: none;
+  font-style:italic;
+  opacity: .50;
+  background-color:inherit;
+  justify-content:flex-end;
+
+}
+.modal-content{
+  text-align:center;
+}
+
+img {
+max-width:100%;
+margin:.3;
+align-items:center;
+}
+
+.btn-primary{
+  background-color: #6dabe4; /* make into variable */
+  color: white;
+  border: none;
+  font-size: 20;
+  text-decoration: none;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+button:hover {
+  background-color:white;
+  opacity:.5;
+}
+.btn-link{
+  color: #000000;
+  border: none;
+  font-style:italic;
+  opacity: .50;
+  background-color:inherit;
+
+}
+.modal-footer{
+  border:none;
+  height: .5;
+}
