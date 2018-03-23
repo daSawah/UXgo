@@ -34,6 +34,7 @@ body {
 }
 .modal-content {
   text-align:center;
+  flex-direction: column;
 }
 
 img {
@@ -65,10 +66,25 @@ button:hover {
 
 }
 .modal-footer {
+  margin-top: 5px;
   border:none;
-  height: .5;
+  height: auto;
+  flex-direction: column;
 }
 
-carousel-indicator {
-  background-color:black;
+.slide-button-container {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#carouselContainer li {
+  background-color: rgba(125, 125, 125, 0.5);
+  height: 8px;
+  width: 8px;
+  border-radius:50%;
+  
+}
+
+#carouselContainer li.active {
+  background-color: rgba(230, 125, 125, 0.5);
 }
