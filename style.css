@@ -1,22 +1,22 @@
-body{
+body {
   font-family: helvetica, sans-serif;
   background-color: white;
   margin:5px;
   height:100%;
 
 }
-.container{
+.container {
   display:flex;
   height:100%;
-  min-height:1024px;
+  min-height:.7;
   align-items:center;
 }
-.modal-dialog{
+.modal-dialog {
   border-style:none;
   min-width:.3;
 }
 
-.modal-header{
+.modal-header {
   border:none;
   align-self:flex-end;
   height:.5;
@@ -29,19 +29,21 @@ body{
   opacity: .50;
   background-color:inherit;
   justify-content:flex-end;
+  cursor:pointer;
 
 }
-.modal-content{
+.modal-content {
   text-align:center;
 }
 
 img {
-max-width:100%;
+max-width:65%;
 margin:.3;
+padding:.3;
 align-items:center;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #6dabe4; /* make into variable */
   color: white;
   border: none;
@@ -54,7 +56,7 @@ button:hover {
   background-color:white;
   opacity:.5;
 }
-.btn-link{
+.btn-link {
   color: #000000;
   border: none;
   font-style:italic;
@@ -62,7 +64,11 @@ button:hover {
   background-color:inherit;
 
 }
-.modal-footer{
+.modal-footer {
   border:none;
   height: .5;
+}
+
+carousel-indicator {
+  background-color:black;
 }
