@@ -19,7 +19,7 @@ body {
 .modal-header {
   border:none;
   align-self:flex-end;
-  height:.5;
+  height:auto;
 }
 
 #close{
@@ -33,8 +33,10 @@ body {
 
 }
 .modal-content {
+  margin-top:0;
   text-align:center;
   flex-direction: column;
+  height:auto;
 }
 
 img {
@@ -42,6 +44,10 @@ max-width:65%;
 margin:.3;
 padding:.3;
 align-items:center;
+}
+
+#img-large{
+  width:35%;
 }
 
 .btn-primary {
@@ -70,21 +76,51 @@ button:hover {
   border:none;
   height: auto;
   flex-direction: column;
+  position: inherit;
 }
 
 .slide-button-container {
   display: inline-flex;
   flex-direction: column;
+  padding:15px;
+}
+
+#carouselContainer{
+padding-top:0;
+margin:0;
+min-height:60%;
+overflow:inherit;
 }
 
 #carouselContainer li {
-  background-color: rgba(125, 125, 125, 0.5);
+  background-color: #efefef;
   height: 8px;
   width: 8px;
-  border-radius:50%;
-  
+  border-radius:70%;
+
 }
 
 #carouselContainer li.active {
-  background-color: rgba(230, 125, 125, 0.5);
+  background-color: #6dabe4;
+  opacity: .5;
+
 }
+
+.carousel-indicators li {
+}
+.carousel-indicators ol {
+  padding:.25;
+  margin:25;
+  position:fixed;
+}
+.carousel-item{
+  margin: 0 .8;
+  bottom:.5
+  padding:.8;
+  min-height:80%;
+}
+/*.carousel-inner{
+  bottom:.5;
+  min-height:50%;
+}
+*/
