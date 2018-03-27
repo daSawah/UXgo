@@ -100,18 +100,23 @@ overflow:inherit;
 
 }
 
+
+
 #carouselContainer li.active {
   background-color: #6dabe4;
   opacity: .5;
 
 }
-
+p {
+  padding: 15px;
+  margin: 15px;
+}
 .carousel-indicators li {
 }
 .carousel-indicators ol {
-  padding:.25;
-  margin:25;
-  position:fixed;
+  padding-top:25px;
+  padding-bottom:15px;
+  position:static;
 }
 .carousel-item{
   margin: 0 .8;
